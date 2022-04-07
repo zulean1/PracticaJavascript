@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras G</title>
+    <link href="css/figura.css" rel="stylesheet" >
+</head>
+<body>
+
+    <header class="header-figura">
+        <h1 class="header-title">Figuras Geometricas</h1>
+    </header>
+    <main class="main-container">
+        <section class="section-container">
+        <div class="section-container-header_title">
+            <h2 class="subtitle">Cuadrado</h2>
+            <img class="img-figure" src="assets/cuadrado.jpg">
+        </div>
+            <article class="container-form">
+                <form class="form-figure">
+                    <fieldset class="border-form">
+                    <legend class="title-form">Datos del Cuadrado: </legend>
+                    <div class="form-content">
+                        <label for="ladoC" class="form-label">
+                            Lado Cuadrado
+                        </label>
+                        <input name="ladoC" id="ladoC" type="number" class="form-input">
+                    </div>
+                    <div class="form-button">
+                      <button type="submit" class="button" onclick="calcularPerimetroC()">
+                          Calcular Perimetro
+                        </button>
+                      <button type="submit" class="button" onclick="calcularAreaC()">
+                          Calcular Área
+                        </button>
+                    </div>
+                </fieldset>
+                </form>
+            </article>
+      
+        </section>
+        <section class="section-container">
+            <div class="section-container-header_title">
+                <h2 class="subtitle">Triangulo</h2>
+                <img class="img-figure" src="assets/triangulo.jpg">
+            </div>
+            <article class="container-form">
+            <form class="form-figure">
+                <fieldset class="border-form">
+                <legend class="title-form">Datos del Triangulo: </legend>
+                <div class="form-content">
+                    <label for="lado1" class="form-label">
+                        Lado 1
+                    </label>
+                    <input name="lado1" id="lado1" type="number" class="form-input">
+                </div>
+                <div class="form-content">
+                    <label for="lado2" class="form-label">
+                        Lado 2
+                    </label>
+                    <input name="lado2" id="lado2" type="number" class="form-input">
+                </div>
+                <div class="form-content">
+                    <label for="baseT" class="form-label">
+                        Base
+                    </label>
+                    <input name="baseT" id="baseT" type="number" class="form-input">
+                </div>
+                <div class="form-content">
+                    <label for="alturaT" class="form-label">
+                        Altura
+                    </label>
+                    <input name="alturaT" id="alturaT" type="number" class="form-input">
+                </div>
+                <div class="form-button">
+                  <button type="submit" class="button" onclick="calcularPerimetroT()" >
+                      Calcular Perimetro
+                    </button>
+                  <button type="submit" class="button" onclick="calcularAreaT()">
+                      Calcular Área
+                    </button>
+                </div>
+            </fieldset>
+            </form>
+        </article>  
+        </section>
+        <section class="section-container">
+            <div class="section-container-header_title">
+                <h2 class="subtitle">Circulo</h2>
+                <img class="img-figure" src="assets/circulo.png">
+            </div>
+            <article class="container-form">
+            <form class="form-figure">
+                <fieldset class="border-form">
+                <legend class="title-form">Datos del Circulo: </legend>
+                <div class="form-content">
+                    <label for="radio" class="form-label">
+                       Radio
+                    </label>
+                    <input name="radio" id="radio" type="number" class="form-input">
+                </div>
+                <div class="form-button">
+
+                  <button type="submit" class="button" onclick="calcularDiametroCC()">
+                      Calcular Diametro
+                    </button>
+                    <button type="submit" class="button" onclick="calcularPerimetroCC()" >
+                        Calcular Perimetro
+                      </button>
+                  <button type="submit" class="button" onclick="calcularAreaCC()">
+                      Calcular Área
+                    </button>
+                </div>
+            </fieldset>
+            </form>
+        </article>
+        </section>
+    </main>
+
+
+
+
+    <script src="js/figura.js">
+
+    </script>
+    
+</body>
+</html>
