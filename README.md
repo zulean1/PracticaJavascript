@@ -7,3 +7,10 @@ Practica de Javascript del Curso Practico de Javascript
 -2: Implementar las formulas
 -3: Crear funciones
 -4: Integrar Js y HTML
+
+# Taller N2: Precios y Descuentos
+
+-1: Definir Formulas
+-2: Implementar las formulas en Javascript
+-3: Crear funciones
+-4: Integrar Js y HTML
