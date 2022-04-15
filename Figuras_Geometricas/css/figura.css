@@ -62,7 +62,7 @@
 
 .subtitle{
     font-size: 26px;
-    font-weight: 400;
+    font-weight: 600;
     color: rgb(18, 6, 41);
 }
 
@@ -96,4 +96,52 @@
 
 .border-form{
     border: none;
+}
+
+.form-content{
+
+    margin : 3px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.form-label{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(18, 6, 41);
+    margin-bottom: 2px;
+    align-self: flex-start;
+    
+}
+
+.form-input{
+    width: 250px;
+    height: 35px;
+    border: 1px solid rgb(114, 181, 243);
+    border-radius: 10px;
+}
+
+.form-button{
+    margin : 5px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button{
+    margin-bottom: 6px;
+    padding: 3px;
+    width: 250px;
+    height: 35px;
+    border: 1px solid rgb(114, 181, 243);
+    border-radius: 10px;
+    color: white;
+    background: rgb(21, 140, 252);
+    text-align: center;
 }

@@ -18,7 +18,7 @@ console.group("Triangulos");
 
 function perimetroT(ladoTriangulo1 ,ladoTriangulo2 , baseTriangulo ) {
   
-    return perimetroTriangulo = ladoTriangulo1 * ladoTriangulo2 * baseTriangulo ;
+    return perimetroTriangulo =( (ladoTriangulo1 + ladoTriangulo2) + baseTriangulo );
 
 }
 
@@ -83,7 +83,7 @@ function calcularPerimetroT() {
     const lado2 = document.getElementById("lado2").value;
     const baseT = document.getElementById("baseT").value;
  
-
+    
      const perimetro = perimetroT(lado1, lado2, baseT);
     
  
