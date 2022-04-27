@@ -5,8 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link href="css/descuento.css" rel="stylesheet" >
 </head>
 <body>
+    <header class="header-figura">
+        <h1 class="header-title">Tienda Online</h1>
+    </header>
+   <main class="main-container">
+    <section class="section-container">
+        <div class="section-container-header_title">
+            <h2 class="subtitle">Compra</h2>
+            <img class="img-figure" src="assets/carrito_compras.png">
+        </div>
+        <article class="container-form">
+        <form class="form-figure">
+            <fieldset class="border-form">
+            <legend class="title-form">Datos de la compra: </legend>
+            <div class="form-content">
+                <label for="precioP" class="form-label">
+                   Precio Producto:
+                </label>
+                <input name="precioP" id="precioP" type="number" class="form-input">
+            </div>
+            <div class="form-content">
+                <label for="porcentaje" class="form-label">
+                   Porcentaje de Descuento
+                </label>
+                <input name="porcentaje" id="porcentaje" type="number" class="form-input">
+            </div>
+            <div class="form-button">
+
+              <button type="button" class="button" onclick="mostrar()">
+                  Aplicar Descuento
+                </button>
+                <p id="resultado"></p>
+            </div>
+        </fieldset>
+        </form>
+    </article>
+    </section>
+</main>
+
+
+    <script src="js/Descuentos.js">
+
+    </script>
     
 </body>
 </html>

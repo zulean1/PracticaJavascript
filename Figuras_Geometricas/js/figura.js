@@ -18,8 +18,9 @@ console.group("Triangulos");
 
 function perimetroT(ladoTriangulo1 ,ladoTriangulo2 , baseTriangulo ) {
   
-    return perimetroTriangulo =( (ladoTriangulo1 + ladoTriangulo2) + baseTriangulo );
-
+    const ladosTriangulo = new Number(ladoTriangulo1 + ladoTriangulo2)  ;
+  
+    return perimetroTriangulo = (ladosTriangulo + baseTriangulo);
 }
 
 
@@ -43,8 +44,8 @@ function DiametroC(radioCirculo) {
 const PI = Math.PI;
 
 function perimetroCC(diametroCirculo) {
-   const diametro =DiametroC();
-   console.log(diametro);
+   const diametro = DiametroC();
+  
    return diametro = (diametroCirculo * PI);
    
 }
@@ -79,12 +80,17 @@ function calcularAreaC() {
 
 
 function calcularPerimetroT() {
-    const lado1 = document.getElementById("lado1").value;
-    const lado2 = document.getElementById("lado2").value;
-    const baseT = document.getElementById("baseT").value;
+    const lado1 = document.getElementById("lado1");
+    const value1 = lado1.value;
+
+    const lado2 = document.getElementById("lado2");
+    const value2 = lado2.value;
+    
+    const baseT = document.getElementById("baseT");
+    const value3 = baseT.value;
  
     
-     const perimetro = perimetroT(lado1, lado2, baseT);
+     const perimetro = new Number(perimetroT(value1 , value2 , value3));
     
  
     alert(perimetro);
