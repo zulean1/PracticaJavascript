@@ -133,3 +133,12 @@
     background: rgb(21, 140, 252);
     text-align: center;
 }
+
+.icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    
+}
