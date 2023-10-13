@@ -1,4 +1,4 @@
-/* Realice un diagrama de flujo y pseudocódigo que representen el 
+/* Realice un diagrama de flujo y pseudocódigo que representen el
 algoritmo para determinar cuánto pagará finalmente una persona
 por un artículo equis, considerando que tiene un descuento de 20%,
 y debe pagar 15% de IVA*/
